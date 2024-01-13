@@ -1,0 +1,15 @@
+{
+  "name": "venus_agency-icons",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nazarpunk/venus_agency-icons.git"
+  },
+  "private": true,
+  "dependencies": {
+    "svgtofont": "^4.1.1"
+  }
+}
