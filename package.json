@@ -10,6 +10,6 @@
   },
   "private": true,
   "dependencies": {
-    "svgtofont": "^4.1.1"
+    "svgtofont": "^4.1.2"
   }
 }

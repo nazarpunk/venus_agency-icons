@@ -6,7 +6,7 @@ const venus = './../venus_agency'
 
 const vfile = './version.txt'
 const version = +fs.readFileSync(vfile, {encoding: 'utf8', flag: 'r'}) + 1
-//fs.writeFileSync(vfile, version.toString())
+fs.writeFileSync(vfile, version.toString())
 
 const className = 'Iconz'
 const fontName = `${className}${version}`
