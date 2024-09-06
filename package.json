@@ -1,6 +1,7 @@
 {
   "name": "venus_agency-icons",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,6 @@
   },
   "private": true,
   "dependencies": {
-    "svgtofont": "^4.1.2"
+    "svgtofont": "^6.0.0"
   }
 }

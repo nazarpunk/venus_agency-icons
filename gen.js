@@ -1,11 +1,14 @@
-const svgtofont = require('svgtofont')
-const path = require('path')
-const fs = require('fs')
+import svgtofont from 'svgtofont'
+
+import path from 'path'
+import fs from 'fs'
 
 const venus = './../venus_agency'
 
 const vfile = './version.txt'
-const version = +fs.readFileSync(vfile, {encoding: 'utf8', flag: 'r'}) + 1
+
+const versionUpdate = 1
+const version = +fs.readFileSync(vfile, {encoding: 'utf8', flag: 'r'}) + versionUpdate
 fs.writeFileSync(vfile, version.toString())
 
 const className = 'Iconz'
