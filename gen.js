@@ -21,7 +21,8 @@ const pubspecPath = path.join(venus, 'pubspec.yaml')
 
 const complete = () => {
     const scss = fs.readFileSync(path.join(fontsPath, `${fontName}.scss`), {encoding: 'utf8', flag: 'r'})
-    let matches = scss.matchAll(/\$[a-z]+\d+-([a-z_0-9-]+):\s*"\\([a-z0-9]+)"\s*;/gmi)
+
+    let matches = scss.matchAll(/\$[a-z]+\d+-([a-z_0-9-]+):\s*'\\([a-z0-9]+)'\s*;/gmi)
 
     fs.readdirSync(fontVenusDir).forEach(f => fs.rmSync(`${fontVenusDir}/${f}`))
     fs.copyFileSync(`${fontsPath}/${fontName}.ttf`, path.join(fontVenusDir, `${fontName}.ttf`))
