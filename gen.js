@@ -7,7 +7,7 @@ const venus = './../venus_agency'
 
 const vfile = './version.txt'
 
-const versionUpdate = 1
+const versionUpdate = 0
 const version = +fs.readFileSync(vfile, {encoding: 'utf8', flag: 'r'}) + versionUpdate
 fs.writeFileSync(vfile, version.toString())
 
@@ -17,7 +17,7 @@ const iconsPath = path.resolve(process.cwd(), 'icons')
 const fontsPath = path.resolve(process.cwd(), 'fonts')
 const fontVenusDir = path.join(venus, 'fonts', 'iconz')
 const codeVenusFile = path.join(venus, 'lib', `${className.toLowerCase()}.dart`)
-const pubspecPath = path.join(venus, 'pubspec.yaml')
+//const pubspecPath = path.join(venus, 'pubspec.yaml')
 
 const complete = () => {
     const scss = fs.readFileSync(path.join(fontsPath, `${fontName}.scss`), {encoding: 'utf8', flag: 'r'})
@@ -27,8 +27,8 @@ const complete = () => {
     fs.readdirSync(fontVenusDir).forEach(f => fs.rmSync(`${fontVenusDir}/${f}`))
     fs.copyFileSync(`${fontsPath}/${fontName}.ttf`, path.join(fontVenusDir, `${fontName}.ttf`))
 
-    const pubspec = fs.readFileSync(pubspecPath, {encoding: 'utf8', flag: 'r'})
-    fs.writeFileSync(pubspecPath, pubspec.replace(/fonts\/iconz\/Iconz\d+\.ttf/, `fonts/iconz/${fontName}.ttf`), {flag: 'w+'})
+    //const pubspec = fs.readFileSync(pubspecPath, {encoding: 'utf8', flag: 'r'})
+    //fs.writeFileSync(pubspecPath, pubspec.replace(/fonts\/iconz\/Iconz\d+\.ttf/, `fonts/iconz/${fontName}.ttf`), {flag: 'w+'})
 
     let code =
         `// ignore_for_file: avoid_redundant_argument_values, constant_identifier_names
