@@ -1,10 +1,10 @@
 @font-face {font-family: "Iconz75";
-  src: url('Iconz75.eot?t=1746445710901'); /* IE9*/
-  src: url('Iconz75.eot?t=1746445710901#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("Iconz75.woff2?t=1746445710901") format("woff2"),
-  url("Iconz75.woff?t=1746445710901") format("woff"),
-  url('Iconz75.ttf?t=1746445710901') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('Iconz75.svg?t=1746445710901#Iconz75') format('svg'); /* iOS 4.1- */
+  src: url('Iconz75.eot?t=1747840250165'); /* IE9*/
+  src: url('Iconz75.eot?t=1747840250165#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("Iconz75.woff2?t=1747840250165") format("woff2"),
+  url("Iconz75.woff?t=1747840250165") format("woff"),
+  url('Iconz75.ttf?t=1747840250165') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('Iconz75.svg?t=1747840250165#Iconz75') format('svg'); /* iOS 4.1- */
 }
 
 [class^="Iconz75-"], [class*=" Iconz75-"] {
@@ -15,10 +15,10 @@
 }
 
 
-.Iconz75-aquarius:before { content: "\e800"; }
-.Iconz75-aries:before { content: "\e801"; }
-.Iconz75-ban:before { content: "\e802"; }
-.Iconz75-bookmark-fill:before { content: "\e803"; }
+.Iconz75-add_box_outlined:before { content: "\e800"; }
+.Iconz75-aquarius:before { content: "\e801"; }
+.Iconz75-aries:before { content: "\e802"; }
+.Iconz75-ban:before { content: "\e803"; }
 .Iconz75-bookmark:before { content: "\e804"; }
 .Iconz75-calendar:before { content: "\e805"; }
 .Iconz75-camera_circle:before { content: "\e806"; }
@@ -30,20 +30,20 @@
 .Iconz75-companies:before { content: "\e80c"; }
 .Iconz75-digit:before { content: "\e80d"; }
 .Iconz75-edit:before { content: "\e80e"; }
-.Iconz75-event1:before { content: "\e80f"; }
-.Iconz75-event2:before { content: "\e810"; }
-.Iconz75-events-old:before { content: "\e811"; }
-.Iconz75-events:before { content: "\e812"; }
-.Iconz75-face-id:before { content: "\e813"; }
-.Iconz75-filter:before { content: "\e814"; }
-.Iconz75-gemini:before { content: "\e815"; }
-.Iconz75-heart:before { content: "\e816"; }
-.Iconz75-info:before { content: "\e817"; }
-.Iconz75-leo:before { content: "\e818"; }
-.Iconz75-libra:before { content: "\e819"; }
-.Iconz75-message:before { content: "\e81a"; }
-.Iconz75-miss:before { content: "\e81b"; }
-.Iconz75-models:before { content: "\e81c"; }
+.Iconz75-events:before { content: "\e80f"; }
+.Iconz75-eye-off:before { content: "\e810"; }
+.Iconz75-eye:before { content: "\e811"; }
+.Iconz75-face-id:before { content: "\e812"; }
+.Iconz75-filter:before { content: "\e813"; }
+.Iconz75-gemini:before { content: "\e814"; }
+.Iconz75-heart:before { content: "\e815"; }
+.Iconz75-info:before { content: "\e816"; }
+.Iconz75-leo:before { content: "\e817"; }
+.Iconz75-libra:before { content: "\e818"; }
+.Iconz75-message:before { content: "\e819"; }
+.Iconz75-miss:before { content: "\e81a"; }
+.Iconz75-models:before { content: "\e81b"; }
+.Iconz75-more_vert:before { content: "\e81c"; }
 .Iconz75-photo:before { content: "\e81d"; }
 .Iconz75-pin:before { content: "\e81e"; }
 .Iconz75-pisces:before { content: "\e81f"; }
@@ -71,10 +71,10 @@
 .Iconz75-virgo:before { content: "\e835"; }
 
 
-$Iconz75-aquarius: '\e800';
-$Iconz75-aries: '\e801';
-$Iconz75-ban: '\e802';
-$Iconz75-bookmark-fill: '\e803';
+$Iconz75-add_box_outlined: '\e800';
+$Iconz75-aquarius: '\e801';
+$Iconz75-aries: '\e802';
+$Iconz75-ban: '\e803';
 $Iconz75-bookmark: '\e804';
 $Iconz75-calendar: '\e805';
 $Iconz75-camera_circle: '\e806';
@@ -86,20 +86,20 @@ $Iconz75-claim: '\e80b';
 $Iconz75-companies: '\e80c';
 $Iconz75-digit: '\e80d';
 $Iconz75-edit: '\e80e';
-$Iconz75-event1: '\e80f';
-$Iconz75-event2: '\e810';
-$Iconz75-events-old: '\e811';
-$Iconz75-events: '\e812';
-$Iconz75-face-id: '\e813';
-$Iconz75-filter: '\e814';
-$Iconz75-gemini: '\e815';
-$Iconz75-heart: '\e816';
-$Iconz75-info: '\e817';
-$Iconz75-leo: '\e818';
-$Iconz75-libra: '\e819';
-$Iconz75-message: '\e81a';
-$Iconz75-miss: '\e81b';
-$Iconz75-models: '\e81c';
+$Iconz75-events: '\e80f';
+$Iconz75-eye-off: '\e810';
+$Iconz75-eye: '\e811';
+$Iconz75-face-id: '\e812';
+$Iconz75-filter: '\e813';
+$Iconz75-gemini: '\e814';
+$Iconz75-heart: '\e815';
+$Iconz75-info: '\e816';
+$Iconz75-leo: '\e817';
+$Iconz75-libra: '\e818';
+$Iconz75-message: '\e819';
+$Iconz75-miss: '\e81a';
+$Iconz75-models: '\e81b';
+$Iconz75-more_vert: '\e81c';
 $Iconz75-photo: '\e81d';
 $Iconz75-pin: '\e81e';
 $Iconz75-pisces: '\e81f';
